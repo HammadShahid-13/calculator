@@ -10,7 +10,7 @@ int main(void) {
         scanf("%d %c %d", &a, &sign, &b); // add space before %c to handle whitespace
 
         switch (sign) {
-            case '+'
+            case '+':
                 result = a + b;
                 break;
             case '*':
